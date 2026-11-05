@@ -5,7 +5,7 @@ class CogenDB:
    def __init__ (self, filenm, data, datamanager):
        self.filename=filenm
        self.data=data
-       self.datamanager=DataManager()
+       #self.datamanager=DataManager()
 
    #print("hypnosys version 1.00")
    #print ("hcs  - main menu:")"
@@ -16,7 +16,7 @@ class CogenDB:
          'utf-8') as targetDB
     
     
-    # generate  new source code trough                         # Datamanager handler
+    # generate  new source code for database                         # Datamanager handler
     def compute():
         pass
     
